@@ -10,13 +10,14 @@ public class launchchrome {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver","C://selenium_driver/chromedriver_win32/chromedriver.exe");
-		//WebDriverManager.chromedriver().setup();
+	//	System.setProperty("webdriver.chrome.driver","C://selenium_driver/chromedriver_win32/chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		
 		WebDriver wb =new ChromeDriver();
 		
 		wb.get("https://mail.google.com");
-	//	wb.findElement(By.xpath(null))
+		wb.findElement(By.id("identifierId")).sendKeys("swaroopeddy4444");
+		
 	}
 
 }
