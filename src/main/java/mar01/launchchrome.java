@@ -16,7 +16,7 @@ public class launchchrome {
 		WebDriver wb =new ChromeDriver();
 		
 		wb.get("https://mail.google.com");
-		wb.findElement(By.id("identifierId")).sendKeys("swaroopeddy4444");
+		wb.findElement(By.id("identifierId")).sendKeys("swaroopreddy4444");
 		
 	}
 
