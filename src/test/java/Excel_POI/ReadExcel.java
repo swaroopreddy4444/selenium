@@ -35,6 +35,8 @@ public class ReadExcel {
 						System.out.print((int)c.getNumericCellValue()+"\t");break;
 					case BLANK :
 						System.out.print("Blank Cell"+"\t");break;
+					case FORMULA:
+						System.out.print(c.getStringCellValue()+"\t");break;
 					default:
 						break;
 				}
