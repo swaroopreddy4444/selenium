@@ -49,7 +49,7 @@ public class PMU_housing_AElogin {
 		dr.get("https://pmuhousing.ap.gov.in/APSHCLPMU/OTS/BeneficiaryStatus.aspx");
 		
 		
-		File f = new File("E:\\bablu\\JavaPractice\\selenium\\src\\test\\resources\\parigi-2OTS.xls");
+		File f = new File("E:\\bablu\\JavaPractice\\selenium\\Resources\\parigi-2OTS.xls");
 		
 		FileInputStream fi =new FileInputStream(f);
 		
