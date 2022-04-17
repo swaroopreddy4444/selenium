@@ -36,7 +36,7 @@ public class WriteExcel {
 
 		
 		
-	File f =new File("E:\\bablu\\JavaPractice\\selenium\\src\\test\\java\\Excel_POI\\WriteExcel.xlsx");
+	File f =new File(".\\src\\test\\java\\Excel_POI\\WriteExcel.xlsx");
 
 	FileOutputStream fo =new FileOutputStream(f);
 	

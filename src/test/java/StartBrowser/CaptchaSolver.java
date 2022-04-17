@@ -3,7 +3,6 @@ package StartBrowser;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -41,7 +40,7 @@ public class CaptchaSolver {
 		
 		WebElement imgcap= driver.findElement(By.id("imgCaptcha"));
 		File src = imgcap.getScreenshotAs(OutputType.FILE);
-		String path ="E:\\bablu\\JavaPractice\\selenium\\src\\test\\java\\StartBrowser\\captchas\\captcha.png";
+		String path =".\\src\\test\\java\\StartBrowser\\captchas\\captcha.png";
 		
 		FileHandler.copy(src, new File(path));
 		Thread.sleep(2000);

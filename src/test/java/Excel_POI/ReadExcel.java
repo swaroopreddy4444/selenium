@@ -15,7 +15,7 @@ public class ReadExcel {
 
 	public static void main(String[] args) throws EncryptedDocumentException, IOException {
 
-		File f = new File("E:\\bablu\\JavaPractice\\selenium\\src\\test\\java\\Excel_POI\\WriteExcel.xlsx");
+		File f = new File(".\\src\\test\\java\\Excel_POI\\WriteExcel.xlsx");
 		
 		FileInputStream fi =new FileInputStream(f);
 		

@@ -26,7 +26,9 @@ public class GetAllLinks {
 		System.out.println(links.size());
 		
 		for(WebElement link:links) {
-			System.out.println(link.getText()+"---\t"+link.getAttribute("href"));	
+			String text=(link.getText()=="")?"NO Text":(link.getText());
+			
+			System.out.println(text+"---\t"+link.getAttribute("href"));	
 		}
 		
 	}
