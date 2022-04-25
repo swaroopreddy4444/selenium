@@ -21,7 +21,7 @@ public class testCheckBox {
 		driver.get("https://endtest.io/guides/docs/how-to-test-checkboxes/");
 	
 		
-		List<WebElement> cbs=driver.findElements(By.xpath("//*[@type=\"checkbox\"]"));
+		List<WebElement> cbs=driver.findElements(By.xpath("//*[@type='checkbox']"));
 		System.out.println(cbs.size());
 		for(WebElement cb:cbs)
 			if(cb.getAttribute("checked")==null)
