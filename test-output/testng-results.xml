@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="1" failed="2" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Inside doLogin Method logging]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'>ScreenShot </a>]]>
+    </line>
+    <line>
+      <![CDATA[</br><a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'><img src='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' height=400 width=400> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'>ScreenShot </a>]]>
+    </line>
+    <line>
+      <![CDATA[</br><a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'><img src='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' height=400 width=400> </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-26T23:56:46 IST" name="Learning TestNG" finished-at="2022-04-26T23:56:46 IST" duration-ms="162">
+    <groups>
+      <group name="high">
+        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@61386958]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
+        <method signature="TestCase3_DependsOn.isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad]" name="isSkip" class="TestNG_Learning.TestCase3_DependsOn"/>
+      </group> <!-- high -->
+      <group name="low">
+        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@71c3b41]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
+        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad]" name="doLogin3" class="TestNG_Learning.TestCase3_DependsOn"/>
+      </group> <!-- low -->
+      <group name="med">
+        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@71c3b41]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
+        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@61386958]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
+        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
+      </group> <!-- med -->
+    </groups>
+    <test started-at="2022-04-26T23:56:46 IST" name="Test_Annotations" finished-at="2022-04-26T23:56:46 IST" duration-ms="73">
+      <class name="TestNG_Learning.TestCase1_Annotations">
+        <test-method is-config="true" signature="getDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@71c3b41]" started-at="2022-04-26T23:56:46 IST" name="getDBconnection" finished-at="2022-04-26T23:56:46 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDBconnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@71c3b41]" started-at="2022-04-26T23:56:46 IST" name="launchBrowser" finished-at="2022-04-26T23:56:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@71c3b41]" started-at="2022-04-26T23:56:46 IST" name="doLogin1" finished-at="2022-04-26T23:56:46 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside doLogin Method logging]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@71c3b41]" started-at="2022-04-26T23:56:46 IST" name="closeBrowser" finished-at="2022-04-26T23:56:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@71c3b41]" started-at="2022-04-26T23:56:46 IST" name="closeDBconnection" finished-at="2022-04-26T23:56:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconnection -->
+      </class> <!-- TestNG_Learning.TestCase1_Annotations -->
+    </test> <!-- Test_Annotations -->
+    <test started-at="2022-04-26T23:56:46 IST" name="Test_Assertions" finished-at="2022-04-26T23:56:46 IST" duration-ms="18">
+      <class name="TestNG_Learning.TestCase2_Assert">
+        <test-method signature="validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@61386958]" started-at="2022-04-26T23:56:46 IST" name="validateTitle" finished-at="2022-04-26T23:56:46 IST" duration-ms="9" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Titles Mismatch expected [yahoo.com] but found [gmail.com],
+Element not found expected [true] but found [false],
+Failed Forcefully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Titles Mismatch expected [yahoo.com] but found [gmail.com],
+Element not found expected [true] but found [false],
+Failed Forcefully
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at TestNG_Learning.TestCase2_Assert.validateTitle(TestCase2_Assert.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'>ScreenShot </a>]]>
+            </line>
+            <line>
+              <![CDATA[</br><a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'><img src='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' height=400 width=400> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- TestNG_Learning.TestCase2_Assert -->
+    </test> <!-- Test_Assertions -->
+    <test started-at="2022-04-26T23:56:46 IST" name="Test_Dependency" finished-at="2022-04-26T23:56:46 IST" duration-ms="25">
+      <class name="TestNG_Learning.TestCase3_DependsOn">
+        <test-method signature="doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad]" started-at="2022-04-26T23:56:46 IST" name="doUserReg3" finished-at="2022-04-26T23:56:46 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Registration failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Registration failed
+at org.testng.Assert.fail(Assert.java:99)
+at TestNG_Learning.TestCase3_DependsOn.doUserReg3(TestCase3_DependsOn.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'>ScreenShot </a>]]>
+            </line>
+            <line>
+              <![CDATA[</br><a href='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' target='_blank'><img src='E:\bablu\JavaPractice\selenium\screenshots\25_4_2022_0_45_45.png' height=400 width=400> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doUserReg3 -->
+        <test-method signature="doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad]" started-at="2022-04-26T23:56:46 IST" name="doLogin3" finished-at="2022-04-26T23:56:46 IST" depends-on-methods="TestNG_Learning.TestCase3_DependsOn.doUserReg3" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin3 -->
+        <test-method signature="isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@3e6ef8ad]" started-at="2022-04-26T23:56:46 IST" name="isSkip" finished-at="2022-04-26T23:56:46 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User already registered]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User already registered
+at TestNG_Learning.TestCase3_DependsOn.isSkip(TestCase3_DependsOn.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+      </class> <!-- TestNG_Learning.TestCase3_DependsOn -->
+    </test> <!-- Test_Dependency -->
+  </suite> <!-- Learning TestNG -->
+</testng-results>
