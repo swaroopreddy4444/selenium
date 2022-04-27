@@ -22,8 +22,7 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 public class SelectBrowser {
 
 	public static WebDriver driver =null;
-	
-	
+
 	public static WebDriver getBrowser(String browser,int ImpWait) {
 		
 		if(browser.equalsIgnoreCase("chrome")) {
@@ -40,16 +39,33 @@ public class SelectBrowser {
 		return driver;		
 	}
 	
-	public static WebDriver getBrowser() {
+public static WebDriver getBrowser() {
 		
 		ChromeOptions ops = new ChromeOptions();
-        ops.addArguments("--disable-notifications");
-        
+       
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver(ops);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		
+		return driver;		
+	}
+public static WebDriver getBrowser(String options) {
+		
+		ChromeOptions ops = new ChromeOptions();
+		if(options=="headless") {
+        ops.addArguments("--disable-notifications");
+        ops.addArguments("--headless");
+
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver(ops);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		
+		}
+		else {
+			getBrowser();
+		}
 		return driver;		
 	}
 	
