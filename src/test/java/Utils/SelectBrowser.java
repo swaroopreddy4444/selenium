@@ -69,24 +69,19 @@ public static WebDriver getBrowser(String options) {
 		return driver;		
 	}
 	
-	
 	public static void PageScreenShot(String savePath) throws IOException {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(savePath));
 	}
-
 	public static void ElementScreenShot(WebElement element, String savePath) throws IOException {
 		File src = ((TakesScreenshot) element).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(savePath));
 	}
-
 	public static void FullPageAShot(String savePath) throws IOException {
-
 		Screenshot src = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
 		ImageIO.write(src.getImage(), "png", new File(".//Ashots//capture1.png"));
 	}
 	public static void ElementAShot(String savePath,WebElement element) throws IOException {
-
 		Screenshot src = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver,element);
 		ImageIO.write(src.getImage(), "png", new File(".//Ashots//capture1.png"));
 	}
