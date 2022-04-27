@@ -50,10 +50,10 @@ public static WebDriver getBrowser() {
 		
 		return driver;		
 	}
-public static WebDriver getBrowser(String options) {
+public static WebDriver getBrowser(String headless) {
 		
 		ChromeOptions ops = new ChromeOptions();
-		if(options=="headless") {
+		if(headless=="headless") {
         ops.addArguments("--disable-notifications");
         ops.addArguments("--headless");
 
