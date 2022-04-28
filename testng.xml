@@ -3,6 +3,7 @@
 <suite name="Learning TestNG">
 	<listeners>
 		<listener class-name="TestNG_Learning.CustomListeners" />
+		<listener class-name="ExtentListeners.ExtentListener" />
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 	</listeners>
 
