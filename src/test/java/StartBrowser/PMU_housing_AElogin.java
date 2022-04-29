@@ -34,11 +34,11 @@ public class PMU_housing_AElogin {
 
 		dr.get("https://pmuhousing.ap.gov.in/APSHCLPMU/Views/Loginform.aspx");
 
-		dr.findElement(By.name("txtusername")).sendKeys("AE-PARI-58");
+		dr.findElement(By.name("txtusername")).sendKeys("11290654-DA");
 		
 		wait.until(ExpectedConditions
 				.presenceOfElementLocated(By.name("txtpassword")))
-				.sendKeys("709393");	
+				.sendKeys("515261");	
 		
 //		String Captchacode = JOptionPane.showInputDialog("Enter Captcha");
 		dr.findElement(By.name("txtcaptcha")).click();
