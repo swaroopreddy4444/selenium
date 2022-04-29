@@ -3,7 +3,7 @@
 <suite name="Failed suite [Learning TestNG]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="TestNG_Learning.CustomListeners"/>
-    <listener class-name="ExtentListeners.ExtentListener"/>
+    <listener class-name="ExtentListeners.ExtentListener1"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
   <test thread-count="5" name="Test_Assertions(failed)">

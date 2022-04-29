@@ -17,53 +17,53 @@
       <![CDATA[</br><a href='..\screenshots\Golf Clubsshot2.png' target='_blank'><img src='..\screenshots\Golf Clubsshot2.png' height=400 width=400> </a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-04-29T01:41:28 IST" name="Learning TestNG" finished-at="2022-04-29T01:41:29 IST" duration-ms="750">
+  <suite started-at="2022-04-29T17:10:31 IST" name="Learning TestNG" finished-at="2022-04-29T17:10:31 IST" duration-ms="390">
     <groups>
       <group name="high">
-        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@4eaf3684]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
-        <method signature="TestCase3_DependsOn.isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08]" name="isSkip" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@45a4b042]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
+        <method signature="TestCase3_DependsOn.isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="isSkip" class="TestNG_Learning.TestCase3_DependsOn"/>
       </group> <!-- high -->
       <group name="low">
-        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@5b3f61ff]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
-        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
-        <method signature="TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08]" name="doLogin3" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
+        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="doLogin3" class="TestNG_Learning.TestCase3_DependsOn"/>
       </group> <!-- low -->
       <group name="med">
-        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@5b3f61ff]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
-        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@4eaf3684]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
-        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
+        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@45a4b042]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
+        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
       </group> <!-- med -->
     </groups>
-    <test started-at="2022-04-29T01:41:28 IST" name="Test_Annotations" finished-at="2022-04-29T01:41:28 IST" duration-ms="93">
+    <test started-at="2022-04-29T17:10:31 IST" name="Test_Annotations" finished-at="2022-04-29T17:10:31 IST" duration-ms="50">
       <class name="TestNG_Learning.TestCase1_Annotations">
-        <test-method is-config="true" signature="getDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@5b3f61ff]" started-at="2022-04-29T01:41:28 IST" name="getDBconnection" finished-at="2022-04-29T01:41:28 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="getDBconnection" finished-at="2022-04-29T17:10:31 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDBconnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@5b3f61ff]" started-at="2022-04-29T01:41:28 IST" name="launchBrowser" finished-at="2022-04-29T01:41:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="launchBrowser" finished-at="2022-04-29T17:10:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@5b3f61ff]" started-at="2022-04-29T01:41:28 IST" name="doLogin1" finished-at="2022-04-29T01:41:28 IST" duration-ms="18" status="PASS">
+        <test-method signature="doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="doLogin1" finished-at="2022-04-29T17:10:31 IST" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside doLogin Method logging]]>
             </line>
           </reporter-output>
         </test-method> <!-- doLogin1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@5b3f61ff]" started-at="2022-04-29T01:41:28 IST" name="closeBrowser" finished-at="2022-04-29T01:41:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="closeBrowser" finished-at="2022-04-29T17:10:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@5b3f61ff]" started-at="2022-04-29T01:41:28 IST" name="closeDBconnection" finished-at="2022-04-29T01:41:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="closeDBconnection" finished-at="2022-04-29T17:10:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBconnection -->
       </class> <!-- TestNG_Learning.TestCase1_Annotations -->
     </test> <!-- Test_Annotations -->
-    <test started-at="2022-04-29T01:41:29 IST" name="Test_Assertions" finished-at="2022-04-29T01:41:29 IST" duration-ms="31">
+    <test started-at="2022-04-29T17:10:31 IST" name="Test_Assertions" finished-at="2022-04-29T17:10:31 IST" duration-ms="14">
       <class name="TestNG_Learning.TestCase2_Assert">
-        <test-method signature="validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@4eaf3684]" started-at="2022-04-29T01:41:29 IST" name="validateTitle" finished-at="2022-04-29T01:41:29 IST" duration-ms="10" status="FAIL">
+        <test-method signature="validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@45a4b042]" started-at="2022-04-29T17:10:31 IST" name="validateTitle" finished-at="2022-04-29T17:10:31 IST" duration-ms="7" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -121,9 +121,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- validateTitle -->
       </class> <!-- TestNG_Learning.TestCase2_Assert -->
     </test> <!-- Test_Assertions -->
-    <test started-at="2022-04-29T01:41:29 IST" name="Test_Dependency" finished-at="2022-04-29T01:41:29 IST" duration-ms="46">
+    <test started-at="2022-04-29T17:10:31 IST" name="Test_Dependency" finished-at="2022-04-29T17:10:31 IST" duration-ms="32">
       <class name="TestNG_Learning.TestCase3_DependsOn">
-        <test-method signature="doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08]" started-at="2022-04-29T01:41:29 IST" name="doUserReg3" finished-at="2022-04-29T01:41:29 IST" duration-ms="2" status="FAIL">
+        <test-method signature="doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" started-at="2022-04-29T17:10:31 IST" name="doUserReg3" finished-at="2022-04-29T17:10:31 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Registration failed]]>
@@ -172,13 +172,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- doUserReg3 -->
-        <test-method signature="doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08]" started-at="2022-04-29T01:41:29 IST" name="doLogin3" finished-at="2022-04-29T01:41:29 IST" depends-on-methods="TestNG_Learning.TestCase3_DependsOn.doUserReg3" duration-ms="0" status="SKIP">
+        <test-method signature="doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" started-at="2022-04-29T17:10:31 IST" name="doLogin3" finished-at="2022-04-29T17:10:31 IST" depends-on-methods="TestNG_Learning.TestCase3_DependsOn.doUserReg3" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08] depends on not successfully finished methods]]>
+              <![CDATA[Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -204,7 +204,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin3 -->
-        <test-method signature="isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@147a5d08]" started-at="2022-04-29T01:41:29 IST" name="isSkip" finished-at="2022-04-29T01:41:29 IST" duration-ms="4" status="SKIP">
+        <test-method signature="isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" started-at="2022-04-29T17:10:31 IST" name="isSkip" finished-at="2022-04-29T17:10:31 IST" duration-ms="3" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[User already registered]]>

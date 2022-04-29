@@ -47,7 +47,7 @@ public class ExtentListener1 implements ITestListener {
 		String methodName = result.getMethod().getMethodName();
 		String logText = "<b>" + "TEST CASE:-" + methodName + " SKIPPED" + "</b>";
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.ORANGE);
-		test.pass(m);
+		test.skip(m);
 	}
 	public void onFinish(ITestContext context) {
 		if(extent!=null)
