@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="1" failed="2" skipped="2">
+<testng-results ignored="1" total="10" passed="5" failed="2" skipped="2">
   <reporter-output>
     <line>
       <![CDATA[Inside doLogin Method logging]]>
@@ -17,53 +17,26 @@
       <![CDATA[</br><a href='..\screenshots\Golf Clubsshot2.png' target='_blank'><img src='..\screenshots\Golf Clubsshot2.png' height=400 width=400> </a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-04-29T17:10:31 IST" name="Learning TestNG" finished-at="2022-04-29T17:10:31 IST" duration-ms="390">
+  <suite started-at="2022-05-07T20:40:31 IST" name="Learning TestNG" finished-at="2022-05-07T20:40:50 IST" duration-ms="19375">
     <groups>
       <group name="high">
-        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@45a4b042]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
-        <method signature="TestCase3_DependsOn.isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="isSkip" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@7674b62c]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
+        <method signature="TestCase3_DependsOn.isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28]" name="isSkip" class="TestNG_Learning.TestCase3_DependsOn"/>
       </group> <!-- high -->
       <group name="low">
-        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
-        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
-        <method signature="TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="doLogin3" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@14008db3]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
+        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28]" name="doLogin3" class="TestNG_Learning.TestCase3_DependsOn"/>
       </group> <!-- low -->
       <group name="med">
-        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
-        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@45a4b042]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
-        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
+        <method signature="TestCase1_Annotations.doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@14008db3]" name="doLogin1" class="TestNG_Learning.TestCase1_Annotations"/>
+        <method signature="TestCase2_Assert.validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@7674b62c]" name="validateTitle" class="TestNG_Learning.TestCase2_Assert"/>
+        <method signature="TestCase3_DependsOn.doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28]" name="doUserReg3" class="TestNG_Learning.TestCase3_DependsOn"/>
       </group> <!-- med -->
     </groups>
-    <test started-at="2022-04-29T17:10:31 IST" name="Test_Annotations" finished-at="2022-04-29T17:10:31 IST" duration-ms="50">
-      <class name="TestNG_Learning.TestCase1_Annotations">
-        <test-method is-config="true" signature="getDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="getDBconnection" finished-at="2022-04-29T17:10:31 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDBconnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="launchBrowser" finished-at="2022-04-29T17:10:31 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="doLogin1" finished-at="2022-04-29T17:10:31 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Inside doLogin Method logging]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- doLogin1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="closeBrowser" finished-at="2022-04-29T17:10:31 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@16aa8654]" started-at="2022-04-29T17:10:31 IST" name="closeDBconnection" finished-at="2022-04-29T17:10:31 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDBconnection -->
-      </class> <!-- TestNG_Learning.TestCase1_Annotations -->
-    </test> <!-- Test_Annotations -->
-    <test started-at="2022-04-29T17:10:31 IST" name="Test_Assertions" finished-at="2022-04-29T17:10:31 IST" duration-ms="14">
+    <test started-at="2022-05-07T20:40:31 IST" name="Test_Assertions" finished-at="2022-05-07T20:40:31 IST" duration-ms="171">
       <class name="TestNG_Learning.TestCase2_Assert">
-        <test-method signature="validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@45a4b042]" started-at="2022-04-29T17:10:31 IST" name="validateTitle" finished-at="2022-04-29T17:10:31 IST" duration-ms="7" status="FAIL">
+        <test-method signature="validateTitle()[pri:0, instance:TestNG_Learning.TestCase2_Assert@7674b62c]" started-at="2022-05-07T20:40:31 IST" name="validateTitle" finished-at="2022-05-07T20:40:31 IST" duration-ms="79" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -95,18 +68,13 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -121,9 +89,36 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- validateTitle -->
       </class> <!-- TestNG_Learning.TestCase2_Assert -->
     </test> <!-- Test_Assertions -->
-    <test started-at="2022-04-29T17:10:31 IST" name="Test_Dependency" finished-at="2022-04-29T17:10:31 IST" duration-ms="32">
+    <test started-at="2022-05-07T20:40:31 IST" name="Test_Annotations" finished-at="2022-05-07T20:40:31 IST" duration-ms="145">
+      <class name="TestNG_Learning.TestCase1_Annotations">
+        <test-method is-config="true" signature="getDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@14008db3]" started-at="2022-05-07T20:40:31 IST" name="getDBconnection" finished-at="2022-05-07T20:40:31 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDBconnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@14008db3]" started-at="2022-05-07T20:40:31 IST" name="launchBrowser" finished-at="2022-05-07T20:40:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin1()[pri:2, instance:TestNG_Learning.TestCase1_Annotations@14008db3]" started-at="2022-05-07T20:40:31 IST" name="doLogin1" finished-at="2022-05-07T20:40:31 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside doLogin Method logging]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@14008db3]" started-at="2022-05-07T20:40:31 IST" name="closeBrowser" finished-at="2022-05-07T20:40:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBconnection()[pri:0, instance:TestNG_Learning.TestCase1_Annotations@14008db3]" started-at="2022-05-07T20:40:31 IST" name="closeDBconnection" finished-at="2022-05-07T20:40:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconnection -->
+      </class> <!-- TestNG_Learning.TestCase1_Annotations -->
+    </test> <!-- Test_Annotations -->
+    <test started-at="2022-05-07T20:40:31 IST" name="Test_Dependency" finished-at="2022-05-07T20:40:31 IST" duration-ms="168">
       <class name="TestNG_Learning.TestCase3_DependsOn">
-        <test-method signature="doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" started-at="2022-04-29T17:10:31 IST" name="doUserReg3" finished-at="2022-04-29T17:10:31 IST" duration-ms="1" status="FAIL">
+        <test-method signature="doUserReg3()[pri:1, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28]" started-at="2022-05-07T20:40:31 IST" name="doUserReg3" finished-at="2022-05-07T20:40:31 IST" duration-ms="72" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Registration failed]]>
@@ -148,18 +143,13 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -172,13 +162,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- doUserReg3 -->
-        <test-method signature="doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" started-at="2022-04-29T17:10:31 IST" name="doLogin3" finished-at="2022-04-29T17:10:31 IST" depends-on-methods="TestNG_Learning.TestCase3_DependsOn.doUserReg3" duration-ms="0" status="SKIP">
+        <test-method signature="doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28]" started-at="2022-05-07T20:40:31 IST" name="doLogin3" finished-at="2022-05-07T20:40:31 IST" depends-on-methods="TestNG_Learning.TestCase3_DependsOn.doUserReg3" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011] depends on not successfully finished methods]]>
+              <![CDATA[Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@7357a011] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestCase3_DependsOn.doLogin3()[pri:2, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -186,25 +176,20 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin3 -->
-        <test-method signature="isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@7357a011]" started-at="2022-04-29T17:10:31 IST" name="isSkip" finished-at="2022-04-29T17:10:31 IST" duration-ms="3" status="SKIP">
+        <test-method signature="isSkip()[pri:3, instance:TestNG_Learning.TestCase3_DependsOn@3e6f3f28]" started-at="2022-05-07T20:40:31 IST" name="isSkip" finished-at="2022-05-07T20:40:31 IST" duration-ms="4" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[User already registered]]>
@@ -228,18 +213,13 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
@@ -248,5 +228,81 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- isSkip -->
       </class> <!-- TestNG_Learning.TestCase3_DependsOn -->
     </test> <!-- Test_Dependency -->
+    <test started-at="2022-05-07T20:40:31 IST" name="Test" finished-at="2022-05-07T20:40:50 IST" duration-ms="19375">
+      <class name="TestNG_Learning.TestParameterization">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNG_Learning.TestParameterization@332729ad]" started-at="2022-05-07T20:40:31 IST" name="setUp" finished-at="2022-05-07T20:40:36 IST" duration-ms="5898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Learning.TestParameterization@332729ad]" started-at="2022-05-07T20:40:41 IST" name="doLogin" data-provider="dp" finished-at="2022-05-07T20:40:45 IST" duration-ms="4103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swaroopreddy4444@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdasd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Learning.TestParameterization@332729ad]" started-at="2022-05-07T20:40:45 IST" name="doLogin" data-provider="dp" finished-at="2022-05-07T20:40:47 IST" duration-ms="1766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[super@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sjdk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Learning.TestParameterization@332729ad]" started-at="2022-05-07T20:40:47 IST" name="doLogin" data-provider="dp" finished-at="2022-05-07T20:40:48 IST" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[praigi2da@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Learning.TestParameterization@332729ad]" started-at="2022-05-07T20:40:48 IST" name="doLogin" data-provider="dp" finished-at="2022-05-07T20:40:49 IST" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superturnitin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfafs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Learning.TestParameterization@332729ad]" started-at="2022-05-07T20:40:49 IST" name="tearDown" finished-at="2022-05-07T20:40:50 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Learning.TestParameterization -->
+    </test> <!-- Test -->
   </suite> <!-- Learning TestNG -->
 </testng-results>
