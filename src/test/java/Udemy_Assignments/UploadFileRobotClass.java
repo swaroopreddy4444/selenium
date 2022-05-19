@@ -23,7 +23,7 @@ public class UploadFileRobotClass extends SelectBrowser{
 		Robot robo = new Robot();
 		robo.setAutoDelay(1000);
 		
-		StringSelection ss = new StringSelection("C:\\Users\\Parigi-2-DA\\Pictures\\img001.jpg");
+		StringSelection ss = new StringSelection("%UserProfile%\\Pictures\\img001.jpg");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 		
 		robo.keyPress(KeyEvent.VK_CONTROL);
