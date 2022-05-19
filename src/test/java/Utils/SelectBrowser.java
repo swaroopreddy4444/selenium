@@ -8,6 +8,7 @@ import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -73,7 +74,7 @@ public static WebDriver getBrowser(String headless) {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(savePath));
 	}
-	public static void ElementScreenShot(WebElement element, String savePath) throws IOException {
+	public static void ElementScreenShot(SearchContext element, String savePath) throws IOException {
 		File src = ((TakesScreenshot) element).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(savePath));
 	}

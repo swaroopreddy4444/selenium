@@ -22,6 +22,6 @@ public class JquerySlider extends SelectBrowser {
 
 		Actions a = new Actions(driver);
 		a.dragAndDropBy(slider, slide, 0).perform();
+		
 	}
-
 }
