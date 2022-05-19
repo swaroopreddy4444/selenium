@@ -38,6 +38,7 @@ public class HDFC_Exercise1 {
 		System.out.println(driver.getTitle()+"-->"+driver.getCurrentUrl());
 		
 		String openinnewtab = Keys.chord(Keys.CONTROL,Keys.ENTER);
+		
 		driver.findElement(By.linkText("Careers")).sendKeys(openinnewtab);		
 	}
 

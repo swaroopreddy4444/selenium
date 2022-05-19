@@ -6,7 +6,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.Duration;
 
-
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -35,70 +34,61 @@ public class PMU_housing_AElogin {
 		dr.get("https://pmuhousing.ap.gov.in/APSHCLPMU/Views/Loginform.aspx");
 
 		dr.findElement(By.name("txtusername")).sendKeys("11290654-DA");
-		
-		wait.until(ExpectedConditions
-				.presenceOfElementLocated(By.name("txtpassword")))
-				.sendKeys("515261");	
-		
+
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.name("txtpassword"))).sendKeys("515261");
+
 //		String Captchacode = JOptionPane.showInputDialog("Enter Captcha");
 		dr.findElement(By.name("txtcaptcha")).click();
 //		dr.findElement(By.name("txtcaptcha")).sendKeys(Captchacode);
 		Thread.sleep(8000);
 		dr.findElement(By.name("btnlogin")).click();
-		
+
 		dr.get("https://pmuhousing.ap.gov.in/APSHCLPMU/OTS/BeneficiaryStatus.aspx");
-		
-		
+
 		File f = new File(".\\Resources\\parigi-2OTS.xls");
-		
-		FileInputStream fi =new FileInputStream(f);
-		
-		Workbook wb = WorkbookFactory.create(fi);
-		
-		Sheet s1=wb.getSheet("Sheet1");
-		System.out.println(s1.getLastRowNum());
-		
-		for(int r=2;r<s1.getLastRowNum();r++) {
-			int c=2;
-			Row row=s1.getRow(r);
-			Cell cell=row.getCell(c);
-				System.out.print(cell.getStringCellValue()+"\t");
+
+		try (FileInputStream fi = new FileInputStream(f);
+				FileOutputStream fo = new FileOutputStream(f);
+				Workbook wb = WorkbookFactory.create(fi);) {
+
+			Sheet s1 = wb.getSheet("Sheet1");
+			System.out.println(s1.getLastRowNum());
+
+			for (int r = 2; r < s1.getLastRowNum(); r++) {
+				int c = 2;
+				Row row = s1.getRow(r);
+				Cell cell = row.getCell(c);
+				System.out.print(cell.getStringCellValue() + "\t");
 				dr.findElement(By.id("ContentPlaceHolder1_txtbenid")).sendKeys(cell.getStringCellValue());
 				dr.findElement(By.id("ContentPlaceHolder1_lnksubmit")).click();
-				
-				cell=row.createCell(c+7);	
+
+				cell = row.createCell(c + 7);
 				cell.setCellValue(dr.findElement(By.id("ContentPlaceHolder1_txtschemename")).getAttribute("value"));
-				System.out.print(cell.getStringCellValue()+"\t");
-				
-				cell=row.createCell(c+8);	
+				System.out.print(cell.getStringCellValue() + "\t");
+
+				cell = row.createCell(c + 8);
 				cell.setCellValue(dr.findElement(By.id("ContentPlaceHolder1_txtschemeyear")).getAttribute("value"));
-				System.out.print(cell.getStringCellValue()+"\t");
-				
-				cell=row.createCell(c+9);
-				cell.setCellValue(dr.findElement(By.id("ContentPlaceHolder1_txtPrincipleComponent")).getAttribute("value"));
-				System.out.print(cell.getStringCellValue()+"\t");
-				
-				cell=row.createCell(c+10);	
+				System.out.print(cell.getStringCellValue() + "\t");
+
+				cell = row.createCell(c + 9);
+				cell.setCellValue(
+						dr.findElement(By.id("ContentPlaceHolder1_txtPrincipleComponent")).getAttribute("value"));
+				System.out.print(cell.getStringCellValue() + "\t");
+
+				cell = row.createCell(c + 10);
 				cell.setCellValue(dr.findElement(By.id("ContentPlaceHolder1_txtinterest")).getAttribute("value"));
-				System.out.print(cell.getStringCellValue()+"\t");
-				
+				System.out.print(cell.getStringCellValue() + "\t");
+
 				dr.findElement(By.id("ContentPlaceHolder1_txtbenid")).clear();
 				System.out.println();
 			}
-		
-		FileOutputStream fo =new FileOutputStream(f);
-		
-		wb.write(fo);
-		
-		fo.close();
-		fi.close();
-		wb.close();
-	
-		
-		
-		
-		
-		
+
+			wb.write(fo);
+		} catch (Exception e) {
+
+			
+		}
+
 //		wait.until(ExpectedConditions
 //				.visibilityOfElementLocated(By.xpath("//*[@role='textbox']"))).click();
 //		List<WebElement> labels = dr.findElements(By.xpath("//*[@role='option']"));
@@ -114,8 +104,5 @@ public class PMU_housing_AElogin {
 //				.click();
 
 	}
-
-
-	
 
 }
