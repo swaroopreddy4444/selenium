@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.Iterator;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,7 +26,9 @@ public class HDFC_Exercise1 {
 		
 		
 		driver.get("https://www.hdfc.com/");
-		driver.findElement(By.linkText("Blogs")).click();
+		JavascriptExecutor js =(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();", driver.findElement(By.linkText("Blogs")));
+//		driver.findElement(By.linkText("Blogs")).click();
 		
 		Iterator<String> iter = driver.getWindowHandles().iterator();
 		

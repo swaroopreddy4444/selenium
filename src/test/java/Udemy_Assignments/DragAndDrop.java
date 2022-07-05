@@ -16,7 +16,7 @@ public class DragAndDrop extends SelectBrowser{
 		WebElement drop= driver.findElement(By.xpath("//*[@id='droppable']"));
 		
 		new Actions(driver).dragAndDrop(drag,drop).perform();
-		new Actions(driver).dragAndDropBy(drag,400,10).perform();
+//		new Actions(driver).dragAndDropBy(drag,400,10).perform();
 		}
 
 }
